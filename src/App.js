@@ -4,12 +4,12 @@ import "./App.css";
 function App() {
   return (
     <div id="home-page">
-      <section className="full-container">
-        <nav>
+      <section className="full-container bg-cover	h-screen">
+        <nav className="flex justify-around">
           <div className="logo">
             <a>AirBNB</a>
           </div>
-          <div className="menu">
+          <div className="menu grid grid-flow-col gap-5">
             <a>places to stay</a>
             <a>experiences</a>
             <a>online experiences</a>
