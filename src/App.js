@@ -18,7 +18,29 @@ function App() {
             <a>Become a host</a>
           </div>
         </nav>
-        <div className="search-bar"></div>
+        <div className="search-container">
+          <div className="search-bar">
+            <div className="filter">
+              <p className="filter__heading">Location</p>
+              <p className="filter__dsc">where are you going?</p>
+            </div>
+            <div className="filter">
+              <p className="filter__heading">Check in</p>
+              <p className="filter__dsc">add dates</p>
+            </div>
+            <div className="filter">
+              <p className="filter__heading">Checkout</p>
+              <p className="filter__dsc">add dates</p>
+            </div>
+            <div className="filter">
+              <p className="filter__heading">Guests</p>
+              <p className="filter__dsc">add guests</p>
+            </div>
+            <a className="search-button">
+              <image />
+            </a>
+          </div>
+        </div>
         <div className="content"></div>
       </section>
     </div>
